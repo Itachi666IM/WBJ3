@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        if(value.isPressed)
+        if(value.isPressed && !isJumping)
         {
             canJump = true;
         }
