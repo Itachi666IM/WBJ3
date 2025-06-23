@@ -28,6 +28,9 @@ public class VNManager : MonoBehaviour
         public string choice1;
         public string choice2;
         public string choice3;
+        public int eval1;
+        public int eval2;
+        public int eval3;
     }
 
     public Dialogue[] allDialogues;
@@ -38,6 +41,8 @@ public class VNManager : MonoBehaviour
     int choiceIndex = 0;
 
     private int goodChoice = 0;
+    int eval = 0;
+    Choices currentChoice;
     private void Start()
     {
         currentDialogue = allDialogues[speakerIndex];
@@ -74,7 +79,7 @@ public class VNManager : MonoBehaviour
         choiceButton.SetActive(false);
         choicesPanel.SetActive(true);
         dialoguePanel.SetActive(false);
-        Choices currentChoice = allChoices[choiceIndex];
+        currentChoice = allChoices[choiceIndex];
         choiceText1.text = currentChoice.choice1;
         choiceText2.text = currentChoice.choice2;
         choiceText3.text = currentChoice.choice3;
@@ -96,7 +101,7 @@ public class VNManager : MonoBehaviour
         }
         else
         {
-            if (goodChoice > 0)
+            if (goodChoice > allChoices.Length/2)
             {
                 SceneManager.LoadScene("Pong");
             }
@@ -108,8 +113,20 @@ public class VNManager : MonoBehaviour
         }
     }
 
-    public void ChoiceEvalution(int eval)
+    public void ChoiceEvalution(TMP_Text selectedChoiceText)
     {
+        if(selectedChoiceText.text == currentChoice.choice1)
+        {
+            eval = currentChoice.eval1;
+        }
+        else if(selectedChoiceText.text == currentChoice.choice2)
+        {
+            eval = currentChoice.eval2;
+        }
+        else
+        {
+            eval = currentChoice.eval3;
+        }
         goodChoice += eval;
     }
 }
