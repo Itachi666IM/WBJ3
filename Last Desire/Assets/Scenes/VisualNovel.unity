@@ -219,10 +219,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1103204594}
         m_TargetAssemblyTypeName: VNManager, Assembly-CSharp
         m_MethodName: ChoiceEvalution
-        m_Mode: 3
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 317350045}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
@@ -584,10 +584,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1103204594}
         m_TargetAssemblyTypeName: VNManager, Assembly-CSharp
         m_MethodName: ChoiceEvalution
-        m_Mode: 3
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 454694825}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1131,11 +1131,73 @@ MonoBehaviour:
     - 'I will convey my feelings, I hope she feels the same... '
   - speaker: Rei
     dialogues:
-    - Oh... it's you. Congratulations for completing the degree.
+    - Oh... it's you
+    - Congratulations for completing the degree
+  - speaker: You
+    dialogues:
+    - Rei... I want to talk to you
+  - speaker: Rei
+    dialogues:
+    - Yeah, what is it?
+    - I have some time right now, we can talk
+  - speaker: You
+    dialogues:
+    - It was a tiring but enjoyable time here
+    - Leaving this place makes me sad
+  - speaker: Rei
+    dialogues:
+    - This place is special to me too
+  - speaker: Rei
+    dialogues:
+    - Huh?! Wha... what did you just say?
+  - speaker: You
+    dialogues:
+    - You can think about what I said
+    - I just wanted to convey my feelings
+    - Just one more day, let's enjoy ourselves...
   allChoices:
   - choice1: Heya Rei, wassup
     choice2: Hello
     choice3: Hi Rei
+    eval1: 0
+    eval2: 1
+    eval3: 1
+  - choice1: Congrats to you too
+    choice2: Yeah, whatever
+    choice3: (stay silent)
+    eval1: 1
+    eval2: 0
+    eval3: 0
+  - choice1: Do you have some time?
+    choice2: Listen to me Rei
+    choice3: (stay silent)
+    eval1: 1
+    eval2: 0
+    eval3: 0
+  - choice1: Thanks, Rei
+    choice2: Cool!
+    choice3: Now listen carefully
+    eval1: 1
+    eval2: 0
+    eval3: 0
+  - choice1: leaving you too
+    choice2: but we got to move on
+    choice3: what about you?
+    eval1: 1
+    eval2: 1
+    eval3: 0
+  - choice1: Rei... I...like you, a lot
+    choice2: You are more special to me
+    choice3: So, what about me then?
+    eval1: 1
+    eval2: 0
+    eval3: 0
+  - choice1: I like you romantically
+    choice2: I said what I wanted to say
+    choice3: Can't you hear properly once?
+    eval1: 1
+    eval2: 0
+    eval3: 0
 --- !u!1 &1286096446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,10 +1815,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1103204594}
         m_TargetAssemblyTypeName: VNManager, Assembly-CSharp
         m_MethodName: ChoiceEvalution
-        m_Mode: 3
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2040265834}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
