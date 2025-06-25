@@ -11,6 +11,7 @@ public class Story : MonoBehaviour
     string currentDialogue;
     public float typingSpeed;
     public GameObject continueButton;
+    public GameObject cutSceneButton;
     private void Start()
     {
         dialogueText.text = "";
@@ -41,7 +42,11 @@ public class Story : MonoBehaviour
             }
             else
             {
-                Debug.Log("All Dialogues finished");
+                dialogueText.text = "";
+                if(cutSceneButton != null)
+                {
+                    cutSceneButton.SetActive(true);
+                }
             }
         }
     }
