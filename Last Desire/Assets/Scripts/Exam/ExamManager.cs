@@ -8,7 +8,9 @@ using Random = UnityEngine.Random;
 public class ExamManager : MonoBehaviour
 {
     int score;
+    int scoreToBeat;
     public TMP_Text questionText;
+    public TMP_Text displayAnswerText;
     public GameObject continueButton;
     public TMP_Text option1;
     public TMP_Text option2;
@@ -26,6 +28,7 @@ public class ExamManager : MonoBehaviour
     Problems currentProblem;
     private void Start()
     {
+        scoreToBeat = problems.Count/2;
         int randomProblem = Random.Range(0, problems.Count);
         currentProblem = problems[randomProblem];
         problems.Remove(currentProblem);
@@ -38,13 +41,18 @@ public class ExamManager : MonoBehaviour
 
     void Update()
     {
-        if(problems.Count < 5)
+        if(problems.Count < scoreToBeat)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            //if(score<5)
-            //{zoologist}
-            //else
-            //{plot 2}
+            if(score>scoreToBeat)
+            {
+                SceneManager.LoadScene("VisualNovel");
+            }
+            else
+            {
+                //if(score<scoreToBeat)
+                //{zoologist}
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
 
@@ -59,12 +67,15 @@ public class ExamManager : MonoBehaviour
         {
             Debug.Log("Incorrect...");
         }
+        displayAnswerText.text = "Answer: " + currentProblem.answer.ToString();
+        displayAnswerText.gameObject.SetActive(true);
         continueButton.SetActive(true);
     }
 
     public void NextQuestion()
     {
         continueButton.SetActive(false);
+        displayAnswerText.gameObject.SetActive(false);
         int randomProblem = Random.Range(0, problems.Count);
         currentProblem = problems[randomProblem];
         problems.Remove(currentProblem);
