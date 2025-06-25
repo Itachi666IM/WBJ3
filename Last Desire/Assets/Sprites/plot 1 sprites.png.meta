@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: plot 1 sprites_0
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 413
+        width: 537
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcd32766e441314fb34d117d6472b7a
+      internalID: 444023294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plot 1 sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 247
+        width: 641
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f429b54eed3fcda439082accf0f0a701
+      internalID: -529790547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plot 1 sprites_3
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 356
+        width: 264
+        height: 494
+      alignment: 9
+      pivot: {x: 0.49054354, y: 0.064097166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b611f4221f316c4e8a722e98ae2b38b
+      internalID: -1112237150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +195,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      plot 1 sprites_0: 444023294
+      plot 1 sprites_1: 1486947187
+      plot 1 sprites_2: -529790547
+      plot 1 sprites_3: -1112237150
+      plot 1 sprites_4: 407376180
+      plot 1 sprites_5: 447041946
+      plot 1 sprites_6: 238189689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
