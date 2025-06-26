@@ -26,9 +26,13 @@ public class PongManager : MonoBehaviour
         player1Score.text = score1.ToString();
         player2Score.text = score2.ToString();
 
-        if(score1 == 3 || score2==3)
+        if(score1 == 3)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("P1W");
+        }
+        else if(score2==3)
+        {
+            SceneManager.LoadScene("P1L");
         }
     }
 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 653
+        width: 323
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a89299a0526c14ea1562caeb64a165
+      internalID: -1527141656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 660
+        width: 181
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c894c836b02b143ba56edd0970f859
+      internalID: -1093274964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_2
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 636
+        width: 433
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fc3de5032c6184597f07418ac126ed
+      internalID: 1790490551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 642
+        width: 444
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449f6d2f4f2b8f342a6cc7966e0cf691
+      internalID: 1050409052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 131
+        width: 456
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b650e0a44d21c48856d421abc6e292
+      internalID: 1321224212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong lose cutscene sprites_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 116
+        width: 554
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1af82e7aea8d044fb441cd6138131da
+      internalID: 160534358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +258,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pong lose cutscene sprites_0: -1527141656
+      pong lose cutscene sprites_1: -1093274964
+      pong lose cutscene sprites_2: 1790490551
+      pong lose cutscene sprites_3: 1050409052
+      pong lose cutscene sprites_4: 1321224212
+      pong lose cutscene sprites_5: 160534358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

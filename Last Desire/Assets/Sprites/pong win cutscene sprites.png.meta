@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pong win cutscene sprites_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 757
+        width: 166
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dffd032e7e65f4783e85bc53de7591
+      internalID: 1405334411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 759
+        width: 191
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630f3beed8a4be548ac6d73664a6604f
+      internalID: 180689525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_2
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 759
+        width: 209
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 383cfe6b1c384b941abe9b893d9cdc98
+      internalID: 1785352336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 755
+        width: 219
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e981156505d952b44af8a83e1ba581e0
+      internalID: -1079087357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 750
+        width: 208
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae33e22fba7fbd04aabe32e118370dee
+      internalID: -1917527790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 233
+        width: 291
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f2d151c8de95498b3453ee4c1722a
+      internalID: 1010737171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 239
+        width: 299
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c406bcea0bbf58479cd30c1b95ce517
+      internalID: -1376929885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_7
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 234
+        width: 486
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f5bdd73eb2fbe44ba32fb75e5eae26
+      internalID: 2102647150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pong win cutscene sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 195
+        width: 514
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db4f885b6f1f4945bc28114f2c6f492
+      internalID: 1134114400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pong win cutscene sprites_0: 1405334411
+      pong win cutscene sprites_1: 180689525
+      pong win cutscene sprites_2: 1785352336
+      pong win cutscene sprites_3: -1079087357
+      pong win cutscene sprites_4: -1917527790
+      pong win cutscene sprites_5: 1010737171
+      pong win cutscene sprites_6: -1376929885
+      pong win cutscene sprites_7: 2102647150
+      pong win cutscene sprites_8: 1134114400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
