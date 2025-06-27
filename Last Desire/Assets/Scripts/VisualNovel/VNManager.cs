@@ -15,6 +15,16 @@ public class VNManager : MonoBehaviour
     public GameObject choiceButton;
     public GameObject dialoguePanel;
     public GameObject choicesPanel;
+
+    public GameObject you;
+    public GameObject rei;
+
+    public GameObject dialogueBackground;
+    public GameObject choiceBackground;
+
+    private bool makingChoice;
+
+    public GameObject sparkleEffect;
     [Serializable]
     public class Dialogue
     {
@@ -51,8 +61,26 @@ public class VNManager : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if(!makingChoice)
+        {
+            if (currentDialogue.speaker == "You")
+            {
+                you.SetActive(true);
+                rei.SetActive(false);
+            }
+            else if (currentDialogue.speaker == "Rei")
+            {
+                rei.SetActive(true);
+                you.SetActive(false);
+            }
+        }
+    }
+
     public void NextDialogue()
     {
+        
         if(dialogueIndex<currentDialogue.dialogues.Length - 1)
         {
             dialogueIndex++;
@@ -76,6 +104,12 @@ public class VNManager : MonoBehaviour
 
     public void MakeChoices()
     {
+        sparkleEffect.SetActive(true);
+        makingChoice = true;
+        you.SetActive(false);
+        rei.SetActive(false);
+        dialogueBackground.SetActive(false);
+        choiceBackground.SetActive(true);
         choiceButton.SetActive(false);
         choicesPanel.SetActive(true);
         dialoguePanel.SetActive(false);
@@ -88,6 +122,10 @@ public class VNManager : MonoBehaviour
 
     public void NextSpeaker()
     {
+        sparkleEffect.SetActive(false);
+        makingChoice = false;
+        choiceBackground.SetActive(false);
+        dialogueBackground.SetActive(true);
         choicesPanel.SetActive(false);
         dialoguePanel.SetActive(true);
         continueButton.SetActive(true);
