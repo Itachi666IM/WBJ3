@@ -45,13 +45,11 @@ public class ExamManager : MonoBehaviour
         {
             if(score>scoreToBeat)
             {
-                SceneManager.LoadScene("VisualNovel");
+                SceneManager.LoadScene("Plot 2");
             }
             else
             {
-                //if(score<scoreToBeat)
-                //{zoologist}
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                SceneManager.LoadScene("Exam Fail");
             }
         }
     }
@@ -61,11 +59,6 @@ public class ExamManager : MonoBehaviour
         if(answerText.text == currentProblem.answer.ToString())
         {
             score++;
-            Debug.Log("Correct!");
-        }
-        else
-        {
-            Debug.Log("Incorrect...");
         }
         displayAnswerText.text = "Answer: " + currentProblem.answer.ToString();
         displayAnswerText.gameObject.SetActive(true);

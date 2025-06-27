@@ -29,5 +29,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/P1L.unity
     guid: 1d0e69295d61bdc4dbf0d1aa95cbf946
+  - enabled: 1
+    path: Assets/Scenes/Exam Fail.unity
+    guid: a0dfd25c83344f94894da77aff59862c
+  - enabled: 1
+    path: Assets/Scenes/Plot 2.unity
+    guid: 483e216f49043f74da7470b5ba5a6486
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 27c687ac1afc30b42833cb8187e0fe1a, type: 2}
