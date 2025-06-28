@@ -787,7 +787,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You came back!
+  m_text: My last desire...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fa675b5a024b16a4f9ba7741f90aa003, type: 2}
   m_sharedMaterial: {fileID: 8848061125005638159, guid: fa675b5a024b16a4f9ba7741f90aa003, type: 2}

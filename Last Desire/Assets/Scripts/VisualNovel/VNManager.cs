@@ -139,9 +139,9 @@ public class VNManager : MonoBehaviour
         }
         else
         {
-            if (goodChoice > allChoices.Length/2)
+            if (goodChoice > allChoices.Length - 3)
             {
-                SceneManager.LoadScene("Pong");
+                SceneManager.LoadScene("Plot 3");
             }
             else
             {
