@@ -11,6 +11,6 @@ public class Plot3Manager : MonoBehaviour
     }
     public void GoAsPlanned()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Plot 4");
     }
 }
