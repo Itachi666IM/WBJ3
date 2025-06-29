@@ -44,5 +44,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Plot 4.unity
     guid: 37ab5084306b5434fb4883369d4b5da3
+  - enabled: 1
+    path: Assets/Scenes/VN Fail.unity
+    guid: f09d6c29e61638b41bfaf10b7a0dd764
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 27c687ac1afc30b42833cb8187e0fe1a, type: 2}

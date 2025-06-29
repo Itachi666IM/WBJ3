@@ -145,7 +145,7 @@ public class VNManager : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("Exam");
+                SceneManager.LoadScene("VN Fail");
             }
              
         }
