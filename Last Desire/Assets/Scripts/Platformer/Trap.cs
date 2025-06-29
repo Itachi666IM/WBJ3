@@ -10,21 +10,25 @@ public class Trap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(gameObject,2f);
+        Destroy(gameObject,3f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector2.MoveTowards(transform.position, destination.position, speed * Time.deltaTime);
+        Invoke(nameof(DelayedFall), 1f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
-            //Platformer Lose Scene
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene("Platformer Fail");
         }
+    }
+
+    void DelayedFall()
+    {
+        transform.position = Vector2.MoveTowards(transform.position, destination.position, speed * Time.deltaTime);
     }
 }

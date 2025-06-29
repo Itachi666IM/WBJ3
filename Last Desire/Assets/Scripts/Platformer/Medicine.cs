@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Medicine : MonoBehaviour
 {
-    Player player;
-
+    GameManager gameManager;
     private void Start()
     {
-        player = FindObjectOfType<Player>();
+        gameManager = FindObjectOfType<GameManager>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "Player")
         {
+            gameManager.IncreaseDynamiteCount();
             Destroy(gameObject);
         }
     }
