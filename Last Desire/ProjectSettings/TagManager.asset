@@ -15,7 +15,7 @@ TagManager:
   - Ground
   - Interactables
   - Particles
-  - 
+  - Player
   - 
   - 
   - 
@@ -56,6 +56,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1332994811
+    locked: 0
+  - name: Foreground
+    uniqueID: 3733690839
     locked: 0
   - name: Canvas
     uniqueID: 1452769621

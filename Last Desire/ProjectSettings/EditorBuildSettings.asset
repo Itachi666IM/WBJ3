@@ -47,5 +47,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VN Fail.unity
     guid: f09d6c29e61638b41bfaf10b7a0dd764
+  - enabled: 1
+    path: Assets/Scenes/Platformer Fail.unity
+    guid: 109bd4b12deec494ebb128620a4ac4b5
+  - enabled: 1
+    path: Assets/Scenes/Platformer Win.unity
+    guid: ad1fe64d150801243965232f60006efa
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 27c687ac1afc30b42833cb8187e0fe1a, type: 2}

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: platformer sprites_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 844
+        width: 556
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92a051cf68f31f4c9d617c066d5de9d
+      internalID: 457227894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_1
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 688
+        width: 152
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebc7ec70f23aeb43a67abdba295ca86
+      internalID: -2086411358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_2
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 549
+        width: 268
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06b748f043925d468051792a0e38e4c
+      internalID: -2077868632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_3
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 596
+        width: 188
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571d5f14ed8dcf848b77dfd851f246e4
+      internalID: -900059510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 501
+        width: 51
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ad84d9a17e4444c9119818774a991c
+      internalID: 592634439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 328
+        width: 868
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc932aa0fa52f49811079e48ff08bf
+      internalID: 1813426558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platformer sprites_6
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 74
+        width: 301
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c4c3cce4c35cb47b0d5df9478e627c
+      internalID: -637873095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +279,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      platformer sprites_0: 457227894
+      platformer sprites_1: -2086411358
+      platformer sprites_2: -2077868632
+      platformer sprites_3: -900059510
+      platformer sprites_4: 592634439
+      platformer sprites_5: 1813426558
+      platformer sprites_6: -637873095
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
