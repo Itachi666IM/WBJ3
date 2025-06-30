@@ -15,10 +15,14 @@ public class PongManager : MonoBehaviour
     public ParticleSystem youWin;
     public ParticleSystem nickWin;
 
+    public AudioClip winSound;
+    SFX sfx;
+
     private void Start()
     {
         racquet1 = FindObjectOfType<Racquet>();
         racquet2 = FindObjectOfType<Racquet2>();
+        sfx = FindObjectOfType<SFX>();
     }
 
     private void Update()
@@ -44,6 +48,7 @@ public class PongManager : MonoBehaviour
         racquet2.ResetVelocity();
         racquet2.gameObject.transform.position = racquet2.defaultPos;
         nickWin.Play();
+        sfx.PlayAnyAudio(winSound);
     }
 
     public void UpdateScore2()
@@ -54,5 +59,6 @@ public class PongManager : MonoBehaviour
         racquet2.ResetVelocity();
         racquet2.gameObject.transform.position = racquet2.defaultPos;
         youWin.Play();
+        sfx.PlayAnyAudio(winSound);
     }
 }

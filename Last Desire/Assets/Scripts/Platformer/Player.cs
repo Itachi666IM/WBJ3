@@ -20,11 +20,17 @@ public class Player : MonoBehaviour
 
     Animator anim;
     private bool isFacingRight = true;
+
+    AudioSource myAudio;
+    SFX sfx;
+    public AudioClip jumpSound;
     
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        myAudio = GetComponent<AudioSource>();
+        sfx = FindObjectOfType<SFX>();
     }
 
     private void FixedUpdate()
@@ -32,7 +38,7 @@ public class Player : MonoBehaviour
         Walk();
         if(isGrounded && canJump && !isJumping)
         {
-            //jump sfx
+            sfx.PlayAnyAudio(jumpSound);
             anim.SetTrigger("jump");
             rb.velocity = Vector2.up * jumpSpeed;
             canJump = false;
@@ -51,13 +57,13 @@ public class Player : MonoBehaviour
         rb.velocity = playerVelocity;
         if(Mathf.Abs(moveDirection.x)>0)
         {
-            Debug.Log("Walking...");
             anim.SetBool("isWalking", true);
-            //walk sfx
+            myAudio.enabled = true;
         }
         else
         {
             anim.SetBool("isWalking", false);
+            myAudio.enabled = false;
         }
     }
 

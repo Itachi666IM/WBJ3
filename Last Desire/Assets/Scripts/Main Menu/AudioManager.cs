@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip platformerMusic;
 
     private AudioSource myAudio;
+
+    [SerializeField] Slider slider;
 
     private void Awake()
     {
@@ -58,5 +61,10 @@ public class AudioManager : MonoBehaviour
         {
             myAudio.Play();
         }
+    }
+
+    public void UpdateVolume()
+    {
+        myAudio.volume = slider.value;
     }
 }

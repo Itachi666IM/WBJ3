@@ -8,14 +8,18 @@ public class Ball : MonoBehaviour
     int moveDirection = 1;
     Rigidbody2D rb;
     public ParticleSystem hitEffect;
+    SFX sfx;
+    public AudioClip hitSound;
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.left * speed * moveDirection;
+        sfx = FindObjectOfType<SFX>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        sfx.PlayAnyAudio(hitSound);
         hitEffect.Play();
     }
 
