@@ -8,7 +8,13 @@ public class TrapSpawner : MonoBehaviour
     public float timeBetweenSpawns;
     float nextSpawnTime;
     public GameObject trap;
+    public AudioClip spawnSound;
+    SFX sfx;
 
+    private void Start()
+    {
+        sfx = FindObjectOfType<SFX>();
+    }
 
     private void Update()
     {
@@ -17,6 +23,7 @@ public class TrapSpawner : MonoBehaviour
             nextSpawnTime = Time.time + timeBetweenSpawns;
             foreach (Transform t in spawnPoints)
             {
+                sfx.PlayAnyAudio(spawnSound);
                 Instantiate(trap,t.position,Quaternion.identity);
             }
 

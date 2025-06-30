@@ -5061,3 +5061,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   hitEffect: {fileID: 7325003049578112205}
+  hitSound: {fileID: 8300000, guid: acc380af0ffaa2946867a8fa860dd5e2, type: 3}
